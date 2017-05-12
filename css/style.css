@@ -1,0 +1,123 @@
+@font-face {
+  font-family: 'ChunkFive Ex';
+  src: url('../fonts/ChunkFiveEx.eot');
+  src: url('../fonts/ChunkFiveEx.eot?#iefix') format('embedded-opentype'), url('../fonts/ChunkFiveEx.woff2') format('woff2'), url('../fonts/ChunkFiveEx.woff') format('woff'), url('../fonts/ChunkFiveEx.ttf') format('truetype'), url('../fonts/ChunkFiveEx.svg#ChunkFiveEx') format('svg');
+  font-weight: normal;
+  font-style: normal;
+}
+html {
+  font-size: 10px;
+}
+input {
+  outline: none;
+}
+textarea {
+  outline: none;
+}
+button {
+  outline: none;
+}
+section {
+  position: relative;
+  height: 100vh;
+}
+.form {
+  z-index: 2;
+  display: inline-block;
+  position: absolute;
+  background-color: #4d59a1;
+  text-align: center;
+  top: 50%;
+  -webkit-transform: translateY(-50%);
+      -ms-transform: translateY(-50%);
+          transform: translateY(-50%);
+}
+.form form {
+  padding: 4rem;
+}
+.form form input {
+  margin-bottom: 1rem;
+}
+.form form textarea {
+  width: 100%;
+  font-size: 1rem;
+  color: #b9b9b9;
+  padding: 1rem;
+  border-style: none;
+  border-radius: 5px;
+  margin-bottom: 1rem;
+}
+.form form textarea:focus {
+  color: transparent;
+}
+.form form button {
+  width: 55%;
+  border-style: none;
+  background-color: #c3f37f;
+  padding: 2rem;
+  border-radius: 50px;
+  color: #fff;
+  text-transform: uppercase;
+  font-size: 1rem;
+}
+.form h2 {
+  font-family: 'ChunkFive Ex';
+  font-size: 6rem;
+  color: #ffffff;
+  margin-top: 4rem;
+  margin-bottom: 0;
+}
+.email {
+  width: 100%;
+  border-style: none;
+  border-radius: 5px;
+  padding: 1rem;
+}
+.where {
+  width: 48%;
+  border-style: none;
+  border-radius: 5px;
+  padding: 1rem;
+}
+.where1 {
+  float: left;
+}
+.where2 {
+  float: right;
+}
+::-webkit-input-placeholder {
+  color: #b9b9b9;
+  font-size: 1rem;
+}
+::-moz-placeholder {
+  color: #b9b9b9;
+  font-size: 1rem;
+}
+/* Firefox 19+ */
+:-moz-placeholder {
+  color: #b9b9b9;
+  font-size: 1rem;
+}
+/* Firefox 18- */
+:-ms-input-placeholder {
+  color: #b9b9b9;
+  font-size: 1rem;
+}
+.map {
+  width: 100%;
+  height: 100%;
+  display: inline-block;
+  position: absolute;
+}
+:focus::-webkit-input-placeholder {
+  color: transparent;
+}
+:focus::-moz-placeholder {
+  color: transparent;
+}
+:focus:-moz-placeholder {
+  color: transparent;
+}
+:focus:-ms-input-placeholder {
+  color: transparent;
+}
