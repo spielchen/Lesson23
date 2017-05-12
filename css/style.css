@@ -47,9 +47,7 @@ section {
   border-radius: 5px;
   margin-bottom: 1rem;
 }
-.form form textarea:focus {
-  color: transparent;
-}
+
 .form form button {
   width: 55%;
   border-style: none;
